@@ -10,7 +10,7 @@ class CustomSliverHorizontalListView extends StatelessWidget {
   Widget build(BuildContext context) {
     return SliverToBoxAdapter(
       child: SizedBox(
-        height: 100,
+        height: 160,
         child: ListView.separated(
           scrollDirection: Axis.horizontal,
           itemBuilder: (context, index) {
@@ -23,7 +23,7 @@ class CustomSliverHorizontalListView extends StatelessWidget {
               width: 8,
             );
           },
-          itemCount: 8,
+          itemCount: 15,
         ),
       ),
     );

@@ -10,12 +10,12 @@ class TabletLayout extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Padding(
-      padding: EdgeInsets.all(12.0),
+      padding: EdgeInsets.symmetric(horizontal:  16.0),
       child: CustomScrollView(
         slivers: [
           CustomSliverHorizontalListView(),
           CustomSliverSizedBox(
-            height: 12,
+            height: 16,
           ),
           CustomSliverListView(),
         ],

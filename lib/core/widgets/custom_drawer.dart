@@ -16,6 +16,7 @@ class CustomDrawer extends StatelessWidget {
   Widget build(BuildContext context) {
     return Drawer(
       backgroundColor: AppColors.lightGrey,
+    elevation: 0,
       child: Column(
         children: [
           const DrawerHeader(
