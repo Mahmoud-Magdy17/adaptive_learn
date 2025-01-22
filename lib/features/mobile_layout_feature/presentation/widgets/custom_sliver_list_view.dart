@@ -12,7 +12,7 @@ class CustomSliverListView extends StatelessWidget {
     return SliverList.separated(
       itemCount: 12,
       itemBuilder: (context, index) {
-        return CustomListItem();
+        return const CustomListItem();
       },
       separatorBuilder: (BuildContext context, int index) {
         return const SizedBox(
