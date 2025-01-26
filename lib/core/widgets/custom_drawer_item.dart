@@ -8,7 +8,11 @@ class CustomDrawerItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListTile(
       leading: Icon(item.icon),
-      title: Text(item.title),
+      title: FittedBox(
+        alignment: Alignment.centerLeft,
+        fit: BoxFit.scaleDown,
+        child: Text(item.title),
+      ),
     );
   }
 }

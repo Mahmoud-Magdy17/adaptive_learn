@@ -1,5 +1,5 @@
 import 'package:adaptive_learn/core/constants/colors.dart';
-import 'package:adaptive_learn/home_view.dart';
+import 'package:adaptive_learn/features/mobile_layout_feature/presentation/home_view.dart';
 import 'package:flutter/material.dart';
 
 void main() {

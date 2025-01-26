@@ -1,8 +1,8 @@
 import 'package:adaptive_learn/core/widgets/custom_drawer.dart';
-import 'package:adaptive_learn/features/mobile_layout_feature/presentation/tablet_layout_home.dart';
+import 'package:adaptive_learn/features/mobile_layout_feature/presentation/widgets/tablet_layout_home.dart';
 import 'package:flutter/material.dart';
 
-import 'widgets/right_widget.dart';
+import 'right_widget.dart';
 
 class DesktopLayoutHome extends StatelessWidget {
   const DesktopLayoutHome({super.key});
@@ -18,7 +18,7 @@ class DesktopLayoutHome extends StatelessWidget {
             flex: 3,
             child: Padding(
               padding: EdgeInsets.symmetric(horizontal: 16.0),
-              child: TabletLayout(),
+              child: TabletLayoutHome(),
             ),
           ),
           Expanded(flex: 1, child: RightWidget())
