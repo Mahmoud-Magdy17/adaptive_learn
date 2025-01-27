@@ -9,9 +9,9 @@ class DesktopLayoutHome extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
+    return const Padding(
       padding: EdgeInsets.all(16),
-      child: const Row(
+      child: Row(
         children: [
           Expanded(flex: 1, child: CustomDrawer()),
           Expanded(
